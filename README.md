@@ -32,3 +32,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Anotações gerais:
+
+Next: framework que utiliza React (que cria interfaces)
+
+React: Maneira de dividir a aplicação em várias interfaces. Ou seja, vários componentes distribuídos que juntos formam a minha aplicação.
+Ex: No twitter o like, comment e share são iguais para cada publicação. O que seria mais difícil de fazer apenas com HTML.
+
+Quando usamos um Next ele possui um servidor Node embutido. Mesmo com o JS desabilitado, já que a interface da aplicação foi construída pelo Server Side Handle. Ou seja, quando o Google acessa nossa aplicação ela já vem construída e necessita apenas ser carregada.
+
+## Solução CSS
+
+npm i -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+## Vatagens
+
+Ao utilizar o tailwind deiminuimos a troca entre HTML e CSS, aumetando a produtividade, ou seja, quando desejo mudar a estilização de um elemento, eu apenas procuro-o e faço as modificações lá dentro. Diferente de quando temos o HTML e CSS
+
+## Biblioteca para fazer chamadas HTTP
+
+npm i axios
+
+## Estados:
+
+Variáveis que serão manipuladas pelo componente
